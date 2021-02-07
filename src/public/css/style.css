@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+
+}
+ 
+.navbar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.adress-parent {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+/* .adress-container {
+    display: inline-block;
+    padding-right: 8rem;
+} */
+
+.adress-info {
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+/* .nav-options {
+    padding: 1.5rem;
+    padding-right: 6rem;
+} */
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+} 
+
+
+
+
+/* ul {
+    display: inline-block;
+    float: right;
+
+} */
+
+
+li {
+
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+li:hover {
+    border-bottom: 0.1rem solid #000;
+}
+
+
+body {
+    position: relative;
+}
+
+
+
+main {
+    position: absolute;
+    width: 100%;
+    /* font-size: 1rem; */
+
+}
+
+/* .principal > .container {
+    display: flex;
+    
+} */
+
+main .principal {
+    position: relative;
+    background-image: url("https://nationalbusinesslending.org/wp-content/uploads/2015/01/loans-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid #808080;
+}
+
+
+
+.form-container {
+    /* padding-left: 10%; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.info-container {
+    /* width: 100%; */
+    /* padding-right: 10%; */
+}
+
+
+.main-title {
+    margin-top: 4.0rem;
+    text-align: center;
+}
+
+
+
+.main-title h1 {
+    font-size: 2.6rem;
+    letter-spacing: 0px;
+    color: #2C5563;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #000;
+    padding: 0 0.5rem;
+
+}
+
+.title-form {
+    text-align: center;
+}
+
+
+.form {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    padding: 3rem 2rem;
+    background-color: lightblue;
+    max-width: 35rem;
+
+}
+
+form h2 {
+    padding: 0rem 0.5rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #2C5563;
+
+}
+
+
+.ques-form-1 {
+    padding-bottom: 2rem;
+
+}
+
+.ques-form-1 h3 {
+    font-weight: 700;
+    color: #2C5563;
+
+}
+
+
+.form-check {
+    padding: 0 1.5rem 2rem;
+}
+
+
+.form-check-label {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 90%;
+    
+}
+
+
+.info-form {
+    margin-top: 4rem;
+
+}
+
+/* .info-form-title-parent {
+    display: flex;
+    justify-content: center;
+} */
+
+.info-form-title {
+    /* width: 100%; */
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.info-form h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 2.6rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+
+.table-form-info-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+
+.table-form-info-item {
+    background: #fff;
+    padding: 8px 20px;
+    border-bottom: 0.1rem solid lightblue;
+}
+
+
+.table-form-info {
+    box-shadow: 1px 1px #000;
+    width: 70%;
+}
+
+
+.table-form-info-item > span {
+    color: #2c5566;
+    font-size: 1.8rem;
+}
+
+info-form-title {
+    text-align: center;
+}
+
+
+
+.advantages {
+    background-color: rgba(50,192,252, 1);
+}
+
+
+
+.advantages .row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.advantages-item {
+    padding: 2rem 4rem;
+    /* padding-left: 4rem; */
+}
+
+.advantages-item h3 span {
+    font-size: 2.4rem;
+    font-family:  Helvetica, Verdana, Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+
+
+.advantages-item h3 {
+
+    margin-bottom: 2rem;
+}
+
+.advantages-item p {
+    font-size: 1.6rem;
+    font-family:  Helvetica, Verdana, Arial, sans-serif;
+    margin-bottom: 4rem;
+}
+
+.ckeck-circle {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.ckeck-circle .fa-check-circle {
+    width: 10rem;
+    height: 5rem;
+}
+
+
+table {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+thead {
+    background-color: rgba(50,192,252, 1);
+}
+.red-title {
+    color: red;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.white-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.red-data {
+    color: red;
+    font-size: 1.4rem;
+}
+
+.item {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.item-2 {
+    font-size: 1.4rem;
+} 
+
+
+
+.info-detail {
+    font-size: 1.4rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.photo {
+    text-align: center;
+}
+
+.container-info {
+    /* display: flex;
+    justify-content: center; */
+    /* padding-top: 2rem; */
+    padding-bottom: 5rem;
+}
+
+.info-person {
+    max-width: 35rem;
+    padding: 1rem 2rem;
+}
+
+.section-persons {
+    margin-top: 10rem;
+}
+
+
+.contact {
+    justify-content: center;
+    background-color: rgba(50,192,252, 1);
+    padding: 3rem 1rem;
+
+}
+
+.contact h3 {
+    font-size: 2rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    line-height: 1.3;
+    text-align: center;
+
+}
+
+
+
+.container-footer{
+    display: block;
+    /* justify-content: space-between; */
+}
+
+.foot-parent {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.foot-info {
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+.foot-options {
+    display: flex;
+    justify-content: center;
+    /* padding: 1.5rem; */
+}
+
+
+.logo-foot {
+    font-size: 1.3rem;
+}
+
+.footer > li {
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    
+}
+
+
+
+
+/* Divs- ocultos */
+
+.ques-form{
+    padding: 2rem 0;
+}
+
+select {
+    width: 50%;
+    height: 3rem;
+}
+
+.oculto-3 {
+    padding-bottom: 1rem;
+}
+
+.contenedor-datos {
+    padding-top: 2rem;
+}
+
+.contenedor-datos h3 {
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.dato-input, .zip-input {
+    width: 90%;
+    border: none;
+    border-radius: 0.5rem;
+    height: 3rem;
+    font-size: large;
+}
+
+.contenedor-datos > label,  .zip-code > label, .optional h3{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: #2C5563;
+    font-weight: 700;
+}
+
+ 
+
+
+
+
+
+
+

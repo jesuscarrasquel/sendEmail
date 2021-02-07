@@ -3,18 +3,28 @@ const nodemailer = require('nodemailer');
 const router = Router();
 
 router.post('/send-email', async (req, res) => {
-    const { name, email, message } = req.body;
+    const { flexRadioDefault1, flexRadioDefault2, flexRadioDefault3, input_13, zipCode, firstName, lastName, phone, email, company, flexRadioDefault4} = req.body;
+    console.log(req.body);
 
     contentHTML = `
     
         <h1>User Information</h1>
 
         <ul>
-            <li>Username: ${name}</li>
-            <li>User email ${email}</li>
+            <li>What is Your Gross Monthly Sales?: ${flexRadioDefault1}</li>
+            <li>How Long Have You Been in Business?: ${flexRadioDefault2}</li>
+            <li>What is Your Credit Score?: ${flexRadioDefault3}</li>
+            <li>User email ${input_13}</li>
+            <li>Zip Code ${zipCode}</li>
+            <li>First Name ${firstName}</li>
+            <li>Last Name ${lastName}</li>
+            <li>Phone ${phone}</li>
+            <li>Email ${email}</li>
+            <li>Company Name ${company}</li>
+            <li>Do you want to establish business credit?  ${flexRadioDefault4}</li>
         </ul>
             
-        <p>User message ${message}</p>
+       
     `;
 
     const transporter = nodemailer.createTransport({
@@ -25,10 +35,7 @@ router.post('/send-email', async (req, res) => {
             user: 'jesusmcc94@gmail.com',
             pass: 'ggwdarxtzreixjre'
         }
-        // ,
-        // tls: {
-        //     rejectUnauthorized: false
-        // }
+
     })
 
     transporter.verify( () => {

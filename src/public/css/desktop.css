@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar li a:hover {
+    color: grey;
+}
+
+.adress-parent {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.adress-container {
+    display: inline-block;
+    padding-right: 8rem;
+}
+
+.adress-info {
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+.nav-options {
+    padding: 1.5rem;
+    padding-right: 6rem;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 6rem;
+
+}
+
+ul {
+    display: inline-block;
+    float: right;
+
+}
+li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 2rem;
+}
+
+li:hover {
+    border-bottom: 0.2rem solid #000;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    font-size: 2rem;
+
+}
+
+main .principal {
+    position: relative;
+    background-image: url("https://nationalbusinesslending.org/wp-content/uploads/2015/01/loans-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid #808080;
+}
+
+
+
+.form-container {
+    padding-left: 10%;
+}
+
+.info-container {
+    padding-right: 10%;
+}
+
+.main-title {
+    margin-top: 4.0rem;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-size: 3.6rem;
+    letter-spacing: 0px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 500;
+    margin: 0px 15rem
+
+}
+
+.title-form {
+    text-align: center;
+}
+
+.form {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    padding: 3rem 2rem;
+    background-color: lightblue;
+    max-width: 35rem;
+}
+
+h2 {
+    padding: 0rem 0.5rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+.ques-form-1 {
+    padding-bottom: 2rem;
+}
+
+.form-check {
+    padding: 0 3rem 0.3rem;
+}
+
+.form-check-label {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.info-form {
+    margin-top: 4rem;
+}
+
+.info-form-title {
+    text-align: center;
+}
+
+.table-form-info-parent {
+    display: flex;
+    justify-content: center;
+}
+.info-form h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 3rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.table-form-info-item {
+    background: #fff;
+    padding: 8px 20px;
+    border-bottom: 0.1rem solid lightblue;
+}
+
+.table-form-info {
+    box-shadow: 1px 1px #000;
+    width: 70%;
+}
+
+.table-form-info > span {
+    color: #2c5566;
+    font-size: 18px;
+}
+
+info-form-title {
+    text-align: center;
+}
+
+.advantages {
+    background-color: rgba(50,192,252, 1);
+}
+
+.advantages .row {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-item {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.advantages-item h3 span {
+    font-size: 2.4rem;
+    font-family:  Helvetica, Verdana, Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+
+.advantages-item h3 {
+
+    margin-bottom: 2rem;
+}
+
+.advantages-item p {
+    font-size: 1.6rem;
+    font-family:  Helvetica, Verdana, Arial, sans-serif;
+    margin-bottom: 4rem;
+}
+
+table {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+thead {
+    background-color: rgba(50,192,252, 1);
+}
+.red-title {
+    color: red;
+    text-align: center;
+}
+
+.white-title {
+    color: #ffffff;
+    text-align: center;
+}
+
+.red-data {
+    color: red;
+}
+
+.item {
+    text-align: center;
+}
+
+.info-detail {
+    font-size: 1.4rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.container-info {
+    display: -webkit-box;
+    padding-bottom: 5rem;
+}
+
+.info-person {
+    max-width: 35rem;
+    padding-left: 5rem;
+}
+
+.section-persons {
+    margin-top: 10rem;
+}
+
+.contact {
+    justify-content: center;
+    background-color: rgba(50,192,252, 1);
+    padding: 4rem;
+
+}
+
+.contact h3 {
+    font-size: 3rem;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    line-height: 1.3;
+    text-align: center;
+
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-parent {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+}
+
+.foot-container {
+    display: inline-block;
+}
+
+.foot-info {
+    color: #808080;
+    font-size: 1.6rem;
+}
+
+.foot-options {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+}
+
+.logo-foot {
+    font-size: 1.3rem;
+}
+
+.footer > li {
+    font-size: 1.3rem;
+}
+
+/* Divs- ocultos */
+
+.ques-form{
+    padding: 2rem 0;
+}
+
+select {
+    width: 50%;
+    height: 3rem;
+}
+
+.oculto-3 {
+    padding-bottom: 1rem;
+}
+
+.contenedor-datos {
+    padding-top: 2rem;
+}
+
+.contenedor-datos h3 {
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.dato-input, .zip-input {
+    width: 50%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contenedor-datos > label,  .zip-code > label, .optional h3{
+    padding: 1rem 0;
+}
+
+.ckeck-circle {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.ckeck-circle .fa-check-circle {
+    width: 10rem;
+    height: 5rem;
+}
+
+
+
+
+
+
+
