@@ -14,13 +14,13 @@ router.post('/send-email', async (req, res) => {
             <li>What is Your Gross Monthly Sales?: ${flexRadioDefault1}</li>
             <li>How Long Have You Been in Business?: ${flexRadioDefault2}</li>
             <li>What is Your Credit Score?: ${flexRadioDefault3}</li>
-            <li>User email ${input_13}</li>
-            <li>Zip Code ${zipCode}</li>
-            <li>First Name ${firstName}</li>
-            <li>Last Name ${lastName}</li>
-            <li>Phone ${phone}</li>
-            <li>Email ${email}</li>
-            <li>Company Name ${company}</li>
+            <li>State: ${input_13}</li>
+            <li>Zip Code: ${zipCode}</li>
+            <li>First Name: ${firstName}</li>
+            <li>Last Name: ${lastName}</li>
+            <li>Phone: ${phone}</li>
+            <li>Email: ${email}</li>
+            <li>Company Name: ${company}</li>
             <li>Do you want to establish business credit?  ${flexRadioDefault4}</li>
         </ul>
             
@@ -32,8 +32,8 @@ router.post('/send-email', async (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: 'jesusmcc94@gmail.com',
-            pass: 'ggwdarxtzreixjre'
+            user: 'webmastercvela@gmail.com',
+            pass: 'gvwtitbwjtntctcl'
         }
 
     })
@@ -43,9 +43,9 @@ router.post('/send-email', async (req, res) => {
     })
 
     const info = await transporter.sendMail({
-        from: 'forgot pass <jesusmcc94@gmail.com>',
-        to:'jesusmcc1106@gmail.com',
-        subject: 'fasdfasd',
+        from: 'National Business Lending Form <webmastercvela@gmail.com>',
+        to:'webmastercvela@gmail.com',
+        subject: 'Form',
         html: contentHTML
     });
 
