@@ -28,12 +28,12 @@ router.post('/send-email', async (req, res) => {
     `;
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
+        host: '',
         port: 465,
         secure: true,
         auth: {
-            user: 'webmastercvela@gmail.com',
-            pass: 'gvwtitbwjtntctcl'
+            user: '',
+            pass: ''
         }
 
     })
